@@ -1,0 +1,186 @@
+bodY {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.center {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: maroon;
+    /* border: 1px solid white; */
+}
+
+.wave-alignment {
+    display: flex;
+    flex-direction: row;
+}
+
+.wave {
+    width: 5px;
+    height: 100px;
+    background: linear-gradient(45deg, gold, whitesmoke);
+    margin: 10px;
+    animation: wave 1s linear infinite;
+    border-radius: 20px;
+}
+
+.wave:nth-child(2) {
+    animation-delay: 0.1s;
+}
+
+.wave:nth-child(3) {
+    animation-delay: 0.2s;
+}
+
+.wave:nth-child(4) {
+    animation-delay: 0.3s;
+}
+
+.wave:nth-child(5) {
+    animation-delay: 0.4s;
+}
+
+.wave:nth-child(6) {
+    animation-delay: 0.5s;
+}
+
+.wave:nth-child(7) {
+    animation-delay: 0.6s;
+}
+
+.wave:nth-child(8) {
+    animation-delay: 0.7s;
+}
+
+.wave:nth-child(9) {
+    animation-delay: 0.8s;
+}
+
+.wave:nth-child(10) {
+    animation-delay: 0.9s;
+}
+
+@keyframes wave {
+    0% {
+        transform: scale(0);
+    }
+    50% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0);
+    }
+}
+
+
+/* .container {
+    margin: 100px auto;
+    margin-top: 220px;
+    width: 400px;
+    text-align: center;
+    position: relative;
+} */
+
+.progress2 {
+    border-radius: 30px;
+    background-color: #fff;
+}
+
+.progress-bar2 {
+    height: 18px;
+    border-radius: 30px;
+    transition: 0.4s linear;
+    transition-property: width, background-color;
+}
+
+.progress-moved .progress-bar2 {
+    background-color: #f3c623;
+    animation: progress 5s infinite;
+}
+
+@keyframes progress {
+    0% {
+        width: 0%;
+        background: #f9bcca;
+    }
+    100% {
+        width: 100%;
+        background: #f3c623;
+        box-shadow: 0 0 40px #f3c623;
+    }
+}
+
+.icon {
+    color: #f3c623;
+    animation: icon 5s infinite;
+    background-color: transparent;
+    padding-right: 400px;
+    padding-bottom: 20px;
+}
+
+@keyframes icon {
+    0% {
+        opacity: 0.2;
+        text-shadow: 0 0 0 #f3c623;
+    }
+    100% {
+        opacity: 1;
+        text-shadow: 0 0 10px #f3c623;
+    }
+}
+
+.loader {
+    --p: 0;
+    animation: p 3s steps(100) infinite;
+    /* Increased the animation duration to 13s */
+    counter-reset: p var(--p);
+    font-size: 2.1em;
+    color: #f3c623;
+    margin-bottom: 30px;
+}
+
+.loader:after {
+    content: counter(p) "%";
+}
+
+@keyframes p {
+    90%,
+    100% {
+        --p: 100;
+    }
+}
+
+
+/* Add this new keyframe */
+
+@keyframes disappear {
+    0%,
+    90% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.wave {
+    width: 5px;
+    height: 100px;
+    background: linear-gradient(45deg, gold, whitesmoke);
+    margin: 10px;
+    animation: wave 1s linear infinite, disappear 8s forwards;
+    border-radius: 20px;
+}
+
+.loader {
+    --p: 0;
+    animation: p 3s steps(100) infinite, disappear 3s forwards;
+    counter-reset: p var(--p);
+    font-size: 2.1em;
+    color: #f3c623;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Name - Software Engineering Portfolio</title>
+    <!-- Add Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl7/1L_dstPt3HV5HzF6Gvk/e3FgDz7uyyd/2l5+x7" crossorigin="anonymous" />
+    <!-- Add custom CSS (optional) -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/circle.css" />
+    <link rel="stylesheet" href="../css/firefly.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+    <style id="firefly-styles"></style>
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top navbar-clr">
+        <div class="container">
+
+
+            <a class="navbar-brand" href="#" style="font-family: 'Orbitron', sans-serif;">NUR AIMAN</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tech-skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonial">Recommendations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="circle-container-wrapper hide-on-mobile">
+                <div class="main">
+                    <div class="circle-container">
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </nav>
+
+
+
+    <!-- Header -->
+    <header class=" text-center py-5 custom-header header-clr">
+
+        <h1 class="header-text">
+            Hello! <br /> I'm Aiman
+        </h1>
+        <h1 class="header-text">
+            An Engineer Who <br /> Loves Programming
+        </h1>
+        <h1 class="header-text">
+            Welcome to <br /> My Portfolio!
+        </h1>
+
+        <div class="contact-button hide-contact-button">
+            <button id="contactBtn"></button>
+            <a href="https://www.linkedin.com/in/muhammad-nur-aiman-ariffin-286430193/" target="_blank" class="logo linkedin-logo" id="linkedinLogo">
+                <img src="../assets/LinkedIn_icon.png" alt="LinkedIn">
+            </a>
+            <a href="mailto:nur_aiman71099@yahoo.com" target="_blank" class="logo yahoo-mail-logo" id="yahooMailLogo">
+                <img src="../assets/yahoo_icon.png" alt="Yahoo Mail">
+            </a>
+            <a href="https://github.com/Nur-Aiman" target="_blank" class="logo github-logo" id="yahooMailLogo">
+                <img src="../assets/github-mark.png" alt="Yahoo Mail">
+            </a>
+        </div>
+
+        <!-- <button id="darkModeToggle" class="dark-mode-toggle">Toggle Dark Mode</button> -->
+
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container mt-5">
+        <h2 style="color: gold; font-size: 40px; text-transform: uppercase;" data-aos="fade-right" data-aos-delay="150">About Me</h2>
+        <div class="row" style="color: whitesmoke">
+            <div class="col-md-2" data-aos="fade-right" data-aos-delay="300">
+
+                <div class="image-container">
+                    <img src="../assets/aiman.jpg" alt="Aiman's profile picture" class="profile-photo" />
+                </div>
+            </div>
+            <div class="col-md-4" data-aos="fade-right" data-aos-delay="300">
+                <p>
+                    <!-- Left side content -->
+                    <h1>Hello! I'm Aiman, <br> an Engineer <br>Who Loves Programming</h1>
+                </p>
+
+            </div>
+            <div class="col-md-6" data-aos="fade-left" data-aos-delay="450">
+                <p>
+                    <p>Briefly about me : </p>
+                    <ul>
+                        <li>A mechanical engineering graduate from Universiti Malaya</li>
+                        <li>Passionate to learn about mechanical systems, programming, and automation.</li>
+                        <li>Willing to learn and explore any new knowledge.</li>
+                    </ul>
+
+                    <p>My domain of interest :</p>
+                    <table>
+                        <tr>
+                            <td>
+                                <ul>
+                                    <li>Software Engineering</li>
+                                    <li>Automation</li>
+                                    <li>Mechatronics and robotics</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Artificial Intelligence</li>
+                                    <li>Internet of Things</li>
+                                    <li>Digital Twin</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+
+
+                    <p>My Principle : </p>
+                    <ul>
+                        <li>Do the right thing at the right time using the right tool.</li>
+                        <li>Set goals. Develop strategies. Be self-discipline. Expect the unexpected.</li>
+
+                    </ul>
+
+
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Experience Section -->
+    <section id="experience" class="container mt-5">
+        <h2 style="color: gold; text-align: center; font-size: 40px; text-transform: uppercase;" data-aos="fade-up-right">Experience</h2>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="row">
+
+
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <!-- Experience 1 -->
+                <div class="card mb-3 border-0" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="300">
+                    <div class="card-body experience-clr">
+                        <h5 class="card-title" style="color: gold;">Software Engineer Conversion 2023</h5>
+                        <h6 class="card-subtitle mb-2 card-text"><em>AdnexioEdu (Sungai Besi, Kuala Lumpur)</em> </h6>
+                        <p class="card-text">
+                            -Training program focuses on Full Stack Development
+                        </p>
+                        <p class="card-text">
+                            <small class="card-text">February 2023 - Present</small>
+                        </p>
+                    </div>
+                </div>
+                <!-- Experience 2 -->
+                <div class="card mb-3 border-0" data-aos="fade-right" data-aos-delay="300">
+                    <div class="card-body experience-clr">
+                        <h5 class="card-title" style="color: gold;">Backend Developer Trainee (Career Accelerator Program)</h5>
+                        <h6 class="card-subtitle mb-2 card-text"><em>Talentlabs (Cyberport, Hong Kong)</em></h6>
+                        <p class="card-text">
+                            -Undergo training program focuses on Back End Development <br> -Education scholarship worth RM15,000 <br> -Personalized mentoring from software engineers from top companies such as Google <br> -Exposure to fundamental language-agnostic
+                            knowledge for software engineers, such as clean architecture and Big O notation.
+
+                        </p>
+                        <p class="card-text">
+                            <small class="card-text">January 2023 - Present</small>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card mb-3 border-0" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="300">
+                    <div class="card-body" style="background-color: #5a0000; color: whitesmoke; border-radius: 5px;">
+                        <h5 class="card-title" style="color: gold;">Equipment Engineer</h5>
+                        <h6 class="card-subtitle mb-2 card-text "><em>Texas Instruments Malaysia (Ampang, Kuala Lumpur)</em></h6>
+                        <p class="card-text ">
+                            As an Equipment Engineer at Texas Instruments Malaysia, I managed equipment stability, maintenance, and spares, supervised technicians, improved part longevity, and handled vendor relationships. I communicated with customers and participated in mold tooling
+                            development for the SUHD project.
+                        </p>
+                        <p class="card-text ">
+                            <small class="card-text ">August 2022 - December 2022</small>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Experience 4 -->
+                <div class="card mb-3 border-0" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card-body experience-clr">
+                        <h5 class="card-title " style="color: gold;">Manufacturing Engineering Intern</h5>
+                        <h6 class="card-subtitle mb-2 card-text "><em>Texas Instruments Malaysia (Ampang, Kuala Lumpur)</em></h6>
+                        <p class="card-text ">
+                            Work on 2 projects during the internship :
+
+                            <ol>
+                                <li>Intelligent Log File Invigilation System <br> -Successfully developed a python program that automatically detects operators procedure breaching. <br> -Pitched the project and shared the project’s source code with international
+                                    team for implementation at worldwide branches.</li>
+                                <li>Automated Dereeler <br> -Developed an Automated Dereeler prototype. <br> -The project successfully reduced the percentage of non-value-added task and improve workstation ergonomic.
+                                </li>
+                            </ol>
+                        </p>
+                        <p class="card-text ">
+                            <small class="card-text ">July 2021 - October 2021</small>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Add more experiences using the same structure -->
+    </section>
+
+
+    <!-- Experience Section -->
+    <section id="education" class="container mt-5">
+        <h2 style="color: gold; text-align: center; font-size: 40px; text-transform: uppercase;" data-aos="fade-up-right">Education</h2>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="row">
+
+
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <!-- Experience 1 -->
+                <div class="card mb-3 border-0" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="300">
+                    <div class="card-body experience-clr">
+                        <h5 class="card-title" style="color: gold;">Bachelor of Mechanical Engineering</h5>
+                        <h6 class="card-subtitle mb-2 card-text"><em>Universiti Malaya (Kuala Lumpur, Federal Territory of Kuala Lumpur)</em> </h6>
+
+                        <p class="card-text">
+                            <small class="card-text">September 2018 - July 2022</small>
+                        </p>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </div>
+        <!-- Add more experiences using the same structure -->
+    </section>
+
+
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="container mt-5 project-clr ">
+        <h2 style="color: gold; font-size: 40px; text-transform: uppercase; ">Projects</h2>
+        <div class="row ">
+            <!-- Project 1 -->
+
+            <div class="col-md-6">
+                <div class="card card-text1">
+                    <div class="card-body d-flex flex-column justify-content-center align-items-center text-center ">
+                        <h5 class="card-title">Contact Manager
+                        </h5>
+                        <h6 class="card-text"> <i>[Web Development]</i>
+                        </h6>
+                        <!-- Add the image carousel here -->
+                        <div id="contactControl" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner ">
+                                <div class="carousel-item active">
+                                    <img src="../assets/Contact Manager/home.png " class=" carousel-img " alt="Image 1 ">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../assets/Contact Manager/auth.png " class=" carousel-img " alt="Image 2 ">
+                                </div>
+                                <div class="carousel-item ">
+                                    <img src="../assets/Contact Manager/welcome.png " class=" carousel-img " alt="Image 3 ">
+                                </div>
+                                <div class="carousel-item ">
+                                    <img src="../assets/Contact Manager/add.png " class=" carousel-img " alt="Image 3 ">
+                                </div>
+                                <div class="carousel-item ">
+                                    <img src="../assets/Contact Manager/view.png " class=" carousel-img " alt="Image 3 ">
+                                </div>
+                                <div class="carousel-item ">
+                                    <img src="../assets/Contact Manager/update.png " class=" carousel-img " alt="Image 3 ">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#contactControl" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden ">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#contactControl" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                        <!-- End of image carousel -->
+
+                        <p class="card-text">The Contact Manager App is a platform that helps users manage their contacts effortlessly. After registering and logging in, users can create, edit, and delete contacts, as well as view their entire contact list or specific contacts.
+                            The app prioritizes security, ensuring that users can only access their own contacts and requires proper authentication.</p>
+
+
+                        <p class="card-text" style="color: wheat "> <i> Tech Stack : <br> HTML, CSS, Javascript, Node.js, Express.js, MongoDB </i></p>
+
+
+
+                        <div class="btn-container ">
+                            <a href="# " class="btn btn-primary view-btn ">View</a>
+                            <div class="hidden-btns ">
+                                <a href="https://github.com/Nur-Aiman/Contact-Manager" class="btn btn-primary btn-cta" target="_blank">GitHub</a>
+                                <a href="https://contact-manager-application.herokuapp.com/" class="btn btn-primary btn-cta" target="_blank">Deploy</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="col-md-6">
+                <div class="card card-text1">
+
+                    <div class="card-body d-flex flex-column justify-content-center align-items-center text-center ">
+                        <h5 class="card-title">Blogging Platform
+                        </h5>
+                        <h6 class="card-text"> <i>[Web Development]</i>
+                        </h6>
+                        <!-- Add the image carousel here -->
+                        <div id="bloggingControl" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="../assets/Blogging Platform/home.png " class=" carousel-img " alt="Image 1 ">
+                                </div>
+                                <div class="carousel-item ">
+                                    <img src="../assets/Blogging Platform/auth.png " class=" carousel-img " alt="Image 2 ">
+                                </div>
+                                <div class="carousel-item ">
+                                    <img src="../assets/Blogging Platform/welcome.png " class=" carousel-img " alt="Image 3 ">
+                                </div>
+                                <div class="carousel-item ">
+                                    <img src="../assets/Blogging Platform/interaction.png " class=" carousel-img " alt="Image 3 ">
+                                </div>
+                                <div class="carousel-item ">
+                                    <img src="../assets/Blogging Platform/addblog.png " class=" carousel-img " alt="Image 3 ">
+                                </div>
+
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#bloggingControl" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#bloggingControl" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden ">Next</span>
+                            </button>
+                        </div>
+                        <!-- End of image carousel -->
+                        <p class="card-text ">Blogging Platform is a blog sharing web app that lets user interact with the blog shared by different users of the application and also lets user create their own blog post. The App allows users to interact with the blogs with
+                            likes and comments. Users will also be able to create accounts, authenticate and authorize in the web application.</p>
+                        <p class="card-text " style="color: wheat "> <i> Tech Stack : <br> HTML, CSS, Javascript, Node.js, Express.js, Firebase </i></p>
+                        <div class="btn-container ">
+                            <a href="# " class="btn btn-primary view-btn ">View</a>
+                            <div class="hidden-btns ">
+                                <a href="https://github.com/Nur-Aiman/Blogging-Platform" class="btn btn-primary btn-cta" target="_blank">GitHub</a>
+                                <a href="https://blogging-platform.herokuapp.com/" class="btn btn-primary btn-cta" target="_blank">Deploy</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-6">
+                <div class="card card-text1">
+                    <div class="card-body d-flex flex-column justify-content-center align-items-center text-center">
+                        <h5 class="card-title">Book Review
+                        </h5>
+                        <h6 class="card-text"> <i>[Web Development]</i>
+                        </h6>
+                        <!-- Add the image carousel here -->
+                        <div id="bookReviewControl" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="../assets/Book Review/home.png" class=" carousel-img" alt="Image 1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../assets/Book Review/auth.png" class=" carousel-img" alt="Image 2 ">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../assets/Book Review/welcome.png" class=" carousel-img" alt="Image 3 ">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../assets/Book Review/view.png" class=" carousel-img" alt="Image 3 ">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../assets/Book Review/add.png" class=" carousel-img" alt="Image 3 ">
+                                </div>
+
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#bookReviewControl" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden ">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#bookReviewControl" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                        <!-- End of image carousel -->
+                        <p class="card-text ">Book Review is a web application which displays the number of book collections, allows a user to add a new book, give rating to each of the books available in the database and write reviews to any of the books.</p>
+                        <p class="card-text " style="color: wheat "> <i> Tech Stack : <br> HTML, CSS, Javascript, Node.js, Express.js, MySQL</i></p>
+                        <div class="btn-container ">
+                            <a href="# " class="btn btn-primary view-btn ">View</a>
+                            <div class="hidden-btns ">
+                                <a href="https://github.com/Nur-Aiman/Book-Review" class="btn btn-primary btn-cta" target="_blank">GitHub</a>
+                                <a href="https://bookreview.herokuapp.com/" class="btn btn-primary btn-cta" target="_blank">Deploy</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 ">
+                <div class="card card-text1 ">
+                    <div class="card-body d-flex flex-column justify-content-center align-items-center text-center ">
+                        <h5 class="card-title ">Calculator
+                        </h5>
+                        <h6 class="card-text"> <i>[Web Development]</i>
+                        </h6>
+                        <!-- Add the image carousel here -->
+                        <div id="bookReviewControl " class="carousel slide " data-bs-ride="carousel ">
+                            <div class="carousel-inner ">
+                                <div class="carousel-item active ">
+                                    <img src="../assets/calculator.png " class=" carousel-img " alt="Image 1 ">
+                                </div>
+
+
+                            </div>
+                            <button class="carousel-control-prev " type="button " data-bs-target="#bookReviewControl " data-bs-slide="prev ">
+                                <span class="carousel-control-prev-icon " aria-hidden="true "></span>
+                                <span class="visually-hidden ">Previous</span>
+                            </button>
+                            <button class="carousel-control-next " type="button " data-bs-target="#bookReviewControl " data-bs-slide="next ">
+                                <span class="carousel-control-next-icon " aria-hidden="true "></span>
+                                <span class="visually-hidden ">Next</span>
+                            </button>
+                        </div>
+                        <!-- End of image carousel -->
+                        <p class="card-text ">The calculator project aims to develop a user-friendly, responsive, and visually appealing web-based calculator application that performs basic arithmetic operations such as addition, subtraction, multiplication, and division.
+                        </p>
+                        <p class="card-text " style="color: wheat "> <i> Tech Stack : <br> HTML, CSS, Javascript</i></p>
+                        <div class="btn-container ">
+                            <a href="# " class="btn btn-primary view-btn ">View</a>
+                            <div class="hidden-btns ">
+                                <a href="https://github.com/Nur-Aiman/sec-2023-day-9/tree/main/calculator" class="btn btn-primary btn-cta" target="_blank">GitHub</a>
+                                <a href="https://nur-aiman.github.io/sec-2023-day-9/calculator/index.html" class="btn btn-primary btn-cta" target="_blank">Deploy</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card card-text1">
+                    <div class="card-body d-flex flex-column justify-content-center align-items-center text-center">
+                        <h5 class="card-title">Smart IoT Hydroponic with Real-Time Data Monitoring
+                        </h5>
+                        <h6 class="card-text"> <i>[Mechatronics and IoT]</i>
+                        </h6>
+                        <!-- Add the image carousel here -->
+                        <div id="IotHydroponicControl" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="../assets/IoT Hydroponic/3d design1.png" class=" carousel-img" alt="Image 1 ">
+                                </div>
+                                <div class="carousel-item ">
+                                    <img src="../assets/IoT Hydroponic/3d design2.png" class=" carousel-img" alt="Image 1 ">
+                                </div>
+                                <div class="carousel-item ">
+                                    <img src="../assets/IoT Hydroponic/3d design3.png" class=" carousel-img" alt="Image 1 ">
+                                </div>
+
+
+
+
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#IotHydroponicControl" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#IotHydroponicControl" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                        <!-- End of image carousel -->
+                        <p class="card-text ">The Smart IoT Hydroponics project develops an advanced system using IoT technology for real-time plant growth monitoring. Optimizing growth through precise environmental data, it aims to create a fully automated, sustainable hydroponic
+                            system, perfect for urban agriculture, indoor farming, and scenarios where traditional farming is impractical.</p>
+                        <p class="card-text " style="color: wheat"> <i> Tech Stack : <br> Arduino, C++, Blynk</i></p>
+                        <div class="btn-container ">
+                            <a href="# " class="btn btn-primary view-btn">View</a>
+                            <div class="hidden-btns ">
+                                <a href="https://github.com/Nur-Aiman/Smart-IoT-Hydroponic-With-Real-Time-Data-Monitoring" class="btn btn-primary btn-cta" target="_blank">GitHub</a>
+                                <a href="" class="btn btn-primary btn-cta" target="_blank">Deploy</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card card-text1">
+                    <div class="card-body d-flex flex-column justify-content-center align-items-center text-center">
+                        <h5 class="card-title">Automated Dereeler
+                        </h5>
+                        <h6 class="card-text"> <i>[Mechatronics automation]</i>
+                        </h6>
+                        <!-- Add the image carousel here -->
+                        <div id="ReelerControl" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="../assets/Automated Dereeler/3d Design.png" class=" carousel-img carousel-img-item" alt="Image 1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../assets/Automated Dereeler/circuit design.png" class=" carousel-img carousel-img-item" alt="Image 2">
+                                </div>
+
+
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#ReelerControl" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#ReelerControl" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                        <!-- End of image carousel -->
+                        <p class="card-text">The implementation of this project has resulted in significant improvements, including a 23.08% reduction in dereeling processing time, time savings of 54 minutes per shift, and enhanced ergonomics at the QC workstation. These
+                            combined effects contribute to a more efficient and comfortable working environment, ultimately leading to increased productivity and job satisfaction.</p>
+                        <p class="card-text " style="color: wheat"> <i> Tech Stack : <br> Arduino, C++</i></p>
+                        <div class="btn-container">
+                            <a href="# " class="btn btn-primary view-btn">View</a>
+                            <div class="hidden-btns">
+                                <a href="https://github.com/Nur-Aiman/Automated-Dereeler" class="btn btn-primary btn-cta" target="_blank">GitHub</a>
+                                <a href="" class="btn btn-primary btn-cta " target="_blank">Deploy</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 ">
+                <div class="card card-text1 ">
+                    <div class="card-body d-flex flex-column justify-content-center align-items-center text-center ">
+                        <h5 class="card-title ">Intelligent Logfile Invigilation System
+                        </h5>
+                        <h6 class="card-text "> <i>[System Automation]</i>
+                        </h6>
+
+                        <div id="bookReviewControl " class="carousel slide " data-bs-ride="carousel ">
+                            <div class="carousel-inner ">
+                                <div class="carousel-item active ">
+                                    <img src="../assets/ " class=" carousel-img " alt="Image 1 ">
+                                </div>
+                                <div class="carousel-item ">
+                                    <img src="../assets/ " class=" carousel-img " alt="Image 2 ">
+                                </div>
+                                <div class="carousel-item ">
+                                    <img src="../assets/ " class=" carousel-img " alt="Image 3 ">
+                                </div>
+                                <div class="carousel-item ">
+                                    <img src="../assets/ " class=" carousel-img " alt="Image 3 ">
+                                </div>
+                                <div class="carousel-item ">
+                                    <img src="../assets/ " class=" carousel-img " alt="Image 3 ">
+                                </div>
+
+                            </div>
+                            <button class="carousel-control-prev " type="button " data-bs-target="#bookReviewControl " data-bs-slide="prev ">
+                                <span class="carousel-control-prev-icon " aria-hidden="true "></span>
+                                <span class="visually-hidden ">Previous</span>
+                            </button>
+                            <button class="carousel-control-next " type="button " data-bs-target="#bookReviewControl " data-bs-slide="next ">
+                                <span class="carousel-control-next-icon " aria-hidden="true "></span>
+                                <span class="visually-hidden ">Next</span>
+                            </button>
+                        </div>
+
+                        <p class="card-text ">The Intelligent Log File Invigilation System (I-LIS) project aims to eliminate quality issues in die bond production caused by operator procedure breaches. I-LIS is an automation program that validates whether the production operator
+                            follows their work procedure correctly or not. The impact of I-LIS is improved quality control and increased efficiency in the production process.</p>
+                        <p class="card-text " style="color: wheat "> <i> Tech Stack : <br> Python, SQL </i></p>
+                        <div class="btn-container ">
+                            <a href="# " class="btn btn-primary view-btn ">View</a>
+                            <div class="hidden-btns ">
+                                <a href="https://github.com/yourusername/project1 " class="btn btn-primary btn-cta " target="_blank ">GitHub</a>
+                                <a href="https://bookreview.herokuapp.com/ " class="btn btn-primary btn-cta " target="_blank ">Deploy</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 ">
+                <div class="card card-text1 ">
+                    <div class="card-body d-flex flex-column justify-content-center align-items-center text-center ">
+                        <h5 class="card-title ">Development of Controllable IoT Camera Kit for Online Exam Invigilaton
+                        </h5>
+                        <h6 class="card-text "> <i>[Mechatronics, Artificial Intelligence, and IoT]</i>
+                        </h6>
+
+                        <div id="bookReviewControl " class="carousel slide " data-bs-ride="carousel ">
+                            <div class="carousel-inner ">
+                                <div class="carousel-item active ">
+                                    <img src="../assets/ " class=" carousel-img " alt="Image 1 ">
+                                </div>
+                                <div class="carousel-item ">
+                                    <img src="../assets/ " class=" carousel-img " alt="Image 2 ">
+                                </div>
+                                <div class="carousel-item ">
+                                    <img src="../assets/ " class=" carousel-img " alt="Image 3 ">
+                                </div>
+                                <div class="carousel-item ">
+                                    <img src="../assets/ " class=" carousel-img " alt="Image 3 ">
+                                </div>
+                                <div class="carousel-item ">
+                                    <img src="../assets/ " class=" carousel-img " alt="Image 3 ">
+                                </div>
+
+                            </div>
+                            <button class="carousel-control-prev " type="button " data-bs-target="#bookReviewControl " data-bs-slide="prev ">
+                                <span class="carousel-control-prev-icon " aria-hidden="true "></span>
+                                <span class="visually-hidden ">Previous</span>
+                            </button>
+                            <button class="carousel-control-next " type="button " data-bs-target="#bookReviewControl " data-bs-slide="next ">
+                                <span class="carousel-control-next-icon " aria-hidden="true "></span>
+                                <span class="visually-hidden ">Next</span>
+                            </button>
+                        </div>
+
+                        <p class="card-text ">The Development of Controllable IoT Camera Kit for Online Exam Invigilation project aims to address the gaps in online exam invigilation by developing a camera that can be controlled by examiners, not students. The camera can be
+                            moved to any place according to the examiner's needs, closing the blind spot that could not be captured by the student's laptop camera. This project has the potential to improve online exam security and deter cheating.</p>
+                        <p class="card-text " style="color: wheat "> <i> Tech Stack : <br> Python, Raspberry Pi, NodeRed </i></p>
+                        <div class="btn-container ">
+                            <a href="# " class="btn btn-primary view-btn ">View</a>
+                            <div class="hidden-btns ">
+                                <a href="https://github.com/yourusername/project1 " class="btn btn-primary btn-cta " target="_blank ">GitHub</a>
+                                <a href="https://docs.google.com/presentation/d/1LvSKvnPtd_fmhpBOkrTCr1L_KBqyLmCu/edit?usp=sharing&ouid=114205025821948914551&rtpof=true&sd=true " class="btn btn-primary btn-cta " target="_blank ">Deploy</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+    </section>
+
+
+
+    <!-- Tech Skills Section -->
+    <section id="tech-skills" class="container mt-5 ">
+
+        <div class="row ">
+            <div class="col-md-3 " style=" display: flex; align-items: center; text-align: center; ">
+                <h2 style="color: gold; font-size: 40px; text-transform: uppercase; ">Tech Skills</h2>
+            </div>
+            <div class="col-md-9 ">
+                <!-- Row 1 -->
+                <div class="row ">
+
+                    <div class="col-md-3 ">
+                        <div class="card mb-3 hover-card " data-label="HTML " style="background-color: transparent; color: whitesmoke; border-right: 1px solid whitesmoke; border-bottom: 1px solid whitesmoke; ">
+                            <div class="image-container ">
+                                <img src="../assets/logo/html.png " class="card-img-top " alt="Skill 7 " style="width: 100px; height: 100px; ">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 ">
+                        <div class="card mb-3 hover-card " data-label="CSS " style="background-color: transparent; color: whitesmoke; border-right: 1px solid whitesmoke; border-bottom: 1px solid whitesmoke; ">
+                            <div class="image-container ">
+                                <img src="../assets/logo/css.png " class="card-img-top " alt="Skill 7 " style="width: 100px; height: 100px; ">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 ">
+                        <div class="card mb-3 hover-card " data-label="Javascript " style="background-color: transparent; color: whitesmoke; border-right: 1px solid whitesmoke; border-bottom: 1px solid whitesmoke; ">
+                            <div class="image-container ">
+                                <img src="../assets/logo/javascript.png " class="card-img-top " alt="Skill 7 " style="width: 100px; height: 100px; ">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 ">
+                        <div class="card mb-3 hover-card " data-label="C++ " style="background-color: transparent; color: whitesmoke; border-right: 1px solid whitesmoke; border-bottom: 1px solid whitesmoke; ">
+                            <div class="image-container ">
+                                <img src="../assets/logo/c-plus-plus.png " class="card-img-top " alt="Skill 7 " style="width: 100px; height: 100px; ">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Row 2 -->
+                <div class="row ">
+                    <div class="col-md-3 ">
+                        <div class="card mb-3 hover-card " data-label="MySQL " style="background-color: transparent; color: whitesmoke; border-right: 1px solid whitesmoke; border-bottom: 1px solid whitesmoke; ">
+                            <div class="image-container ">
+                                <img src="../assets/logo/mysql.png " class="card-img-top " alt="Skill 7 " style="width: 100px; height: 100px; ">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 ">
+                        <div class="card mb-3 hover-card " data-label="MongoDB " style="background-color: transparent ;color: whitesmoke; border-right: 1px solid whitesmoke; border-bottom: 1px solid whitesmoke; ">
+                            <div class="image-container ">
+                                <img src="../assets/logo/mongodb.png " class="card-img-top " alt="Skill 7 " style="width: 100px; height: 100px; ">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 ">
+                        <div class="card mb-3 hover-card " data-label="Firebase " style="background-color: transparent; color: whitesmoke; border-right: 1px solid whitesmoke; border-bottom: 1px solid whitesmoke; ">
+                            <div class="image-container ">
+                                <img src="../assets/logo/firebase.png " class="card-img-top " alt="Skill 7 " style="width: 100px; height: 100px; ">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 ">
+                        <div class="card mb-3 hover-card " data-label="Node.js " style="background-color: transparent; color: whitesmoke; border-right: 1px solid whitesmoke; border-bottom: 1px solid whitesmoke; ">
+                            <div class="image-container ">
+                                <img src="../assets/logo/node-js.png " class="card-img-top " alt="Skill 7 " style="width: 100px; height: 100px; ">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row 3 -->
+                <div class="row ">
+                    <div class="col-md-3 ">
+                        <div class="card mb-3 hover-card " data-label="Arduino " style="background-color: transparent; color: whitesmoke; border-right: 1px solid whitesmoke; border-bottom: 1px solid whitesmoke; ">
+                            <div class="image-container ">
+                                <img src="../assets/logo/arduino.png " class="card-img-top " alt="Skill 7 " style="width: 100px; height: 100px; ">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 ">
+                        <div class="card mb-3 hover-card " data-label="Express.js " style="background-color: transparent; color: whitesmoke; border-right: 1px solid whitesmoke; border-bottom: 1px solid whitesmoke; ">
+                            <div class="image-container ">
+                                <img src="../assets/logo/express.png " class="card-img-top " alt="Skill 7 " style="width: 100px; height: 100px; ">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 ">
+                        <div class="card mb-3 hover-card " data-label="Python " style="background-color: transparent; color: whitesmoke; border-right: 1px solid whitesmoke; border-bottom: 1px solid whitesmoke; ">
+                            <div class="image-container ">
+                                <img src="../assets/logo/python.png " class="card-img-top " alt="Skill 7 " style="width: 100px; height: 100px; ">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 ">
+                        <!-- <div class="card mb-3 hover-card " data-label="Python ">
+                  <div class="image-container ">
+                    <img src="./assets/python.png " class="card-img-top " alt="Skill 7 " style="width: 100px; height: 100px; ">
+                  </div>
+                </div> -->
+                    </div>
+                </div>
+
+                <!-- Add more rows using the same structure if needed -->
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section id="testimonial" class="container mt-5 ">
+        <div class="row ">
+            <div class="col-md-12 text-center ">
+                <h2 style="color: gold; font-size: 40px; text-transform: uppercase; text-align: center; ">Recommendations</h2>
+            </div>
+            <!-- Add more rows using the same structure if needed -->
+        </div>
+
+        <div class="row ">
+            <div class="col-12 d-flex justify-content-center ">
+                <div class="card mb-3 " data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="300" style="max-width: 700px; background-color: #5a0000; ">
+                    <div class="row no-gutters ">
+                        <div class="col-md-4 " style="display:flex; justify-content: center; align-items: center; ">
+                            <img src="../assets/fauwaz.png " class="card-img testimonial-img " alt="Ameer ">
+                        </div>
+                        <div class="col-md-8 ">
+                            <div class="card-body ">
+                                <h5 class="card-title ">Ameer Fauwaz Aminuddin</h5>
+                                <h6 class="card-title ">Graduate Material & Corrosion Engineer at Ranhill Worley</h6>
+                                <p class="card-text1 "><i>Aiman is a very organized and disciplined person. His time and work management is exceptional, added with his already remarkable problem-solving skill. He has been a role model for other students especially in planning career path
+                                    and studies. He is a top prospect from Mechanical Engineering (UM) and I believe he has a bright future with his career path ahead.</i></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="mt-5 ">
+        <div class="container ">
+            <h2 style="color: gold; font-size: 40px; text-transform: uppercase; ">Contact</h2>
+
+            <div style="color: whitesmoke ">
+                <form action="mailto:nur_aiman71099@yahoo.com " method="post " enctype="text/plain ">
+                    <div class="form-group ">
+                        <label for="name ">Name:</label>
+                        <input type="text " class="form-control " id="name " name="name " placeholder="Your name " required>
+                    </div>
+                    <div class="form-group ">
+                        <label for="email ">Email:</label>
+                        <input type="email " class="form-control " id="email " name="email " placeholder="Your email " required>
+                    </div>
+                    <div class="form-group ">
+                        <label for="message ">Message:</label>
+                        <textarea class="form-control " id="message " name="message " placeholder="Your message " rows="5 " required></textarea>
+                    </div>
+
+
+                    <button type="submit " class="btn btn-primary ">Send</button>
+                </form>
+            </div>
+            <div class="mt-4 social-media-icons ">
+                <a href="https://www.linkedin.com/in/muhammad-nur-aiman-ariffin-286430193/" target="_blank" style="color: whitesmoke; margin-right: 10px; ">
+                    <i class="fab fa-linkedin fa-2x "></i>
+                </a>
+                <a href="https://github.com/Nur-Aiman" target="_blank" style="color: whitesmoke; margin-right: 10px; ">
+                    <i class="fab fa-github fa-2x "></i>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3 ">
+        <p>&copy; 2023 Nur Aiman. All Rights Reserved.</p>
+    </footer>
+
+
+    <!-- Add Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js " integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N " crossorigin="anonymous "></script>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js " integrity="sha384-oBqDVmMz4fnFO9gybBud7R3zB7W//pFpwl3BxXHzUW5K5hMl4tXp4a4z4wWf4W5z " crossorigin="anonymous "></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js " integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/ " crossorigin="anonymous "></script>
+<script>
+    AOS.init();
+</script>
+<script src="../javascript/firefly.js "></script>
+<script src="typing.js "></script>
+
+<script>
+    const contactButton = document.querySelector('.contact-button');
+    const contactBtn = document.getElementById('contactBtn');
+    const logos = document.querySelectorAll('.logo');
+
+    logos.forEach(logo => {
+        logo.addEventListener('mouseover', () => {
+            showLogos();
+        });
+        logo.addEventListener('mouseout', () => {
+            hideLogos();
+        });
+    });
+
+    contactBtn.addEventListener('mouseover', () => {
+        showLogos();
+    });
+    contactBtn.addEventListener('mouseout', () => {
+        hideLogos();
+    });
+
+    function showLogos() {
+        logos.forEach(logo => {
+            logo.style.opacity = 1;
+        });
+    }
+
+    function hideLogos() {
+        if (!contactButton.matches(':hover')) {
+            logos.forEach(logo => {
+                logo.style.opacity = 0;
+            });
+        }
+    }
+
+    document.body.addEventListener('mousemove', (event) => {
+        const target = event.target;
+
+        if (target !== contactButton && !target.closest('.contact-button')) {
+            hideLogos();
+        }
+    });
+</script>
+
+<script>
+    const darkModeToggle = document.getElementById("darkModeToggle ");
+    const body = document.body;
+
+    darkModeToggle.addEventListener("click ", () => {
+        body.classList.toggle("dark-mode ");
+    });
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var navLinks = document.querySelectorAll(".nav-link");
+
+        navLinks.forEach(function(link) {
+            link.addEventListener("click", function(event) {
+                event.preventDefault();
+                var targetId = this.getAttribute("href");
+                var targetElement = document.querySelector(targetId);
+                var targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset - 80; // Subtract 80px for the desired scroll distance
+                window.scrollTo({
+                    top: targetPosition,
+                    behavior: "smooth"
+                });
+            });
+        });
+    });
+</script>
+
+
+
+
+</body>
+
+</html>

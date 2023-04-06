@@ -1,0 +1,368 @@
+body {
+    background-color: maroon;
+}
+
+.custom-header {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.navbar-clr {
+    background-color: maroon;
+    height: 80px
+}
+
+.project-clr {
+    background-color: maroon;
+}
+
+#contact {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-button {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+
+button#contactBtn {
+    border: none;
+    background-color: transparent;
+    background-image: url("../assets/contact.png");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: background-color 0.2s;
+    animation: beat 1s linear infinite;
+    /* filter: sepia(1) hue-rotate(45deg) saturate(3); */
+}
+
+@keyframes beat {
+    0%,
+    100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+button#contactBtn:hover {
+    background-color: transparent;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    opacity: 0;
+    border-radius: 50%;
+    transition: opacity 0.2s;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.linkedin-logo {
+    top: -50px;
+    right: 0;
+}
+
+.yahoo-mail-logo {
+    top: -100px;
+    right: 0;
+}
+
+.github-logo {
+    top: -150px;
+    right: 0;
+    background-color: white;
+}
+
+button#contactBtn:hover~.logo,
+.logo:hover {
+    opacity: 1;
+}
+
+
+/* .clr {}
+
+.dark {
+    background-color: #2c3e50;
+    color: #f1c40f;
+} */
+
+
+/* style.css */
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    /* Adjust the height as needed */
+}
+
+#about {
+    height: auto;
+}
+
+.experience-clr {
+    background-color: #5a0000;
+    color: whitesmoke;
+    border-radius: 5px;
+}
+
+#experience {
+    height: auto;
+}
+
+header {
+    background-color: maroon;
+    color: gold;
+    /* border: 1px solid whitesmoke; */
+}
+
+.header-text {
+    font-size: 100px;
+    text-transform: capitalize;
+    position: absolute;
+    opacity: 0;
+}
+
+.header-text:nth-child(1) {
+    animation: fadeInOut 9s linear infinite;
+}
+
+.header-text:nth-child(2) {
+    animation: fadeInOut 9s linear infinite 3s;
+}
+
+.header-text:nth-child(3) {
+    animation: fadeInOut 9s linear infinite 6s;
+}
+
+@keyframes fadeInOut {
+    0%,
+    23%,
+    100% {
+        opacity: 0;
+    }
+    5%,
+    18% {
+        opacity: 1;
+    }
+}
+
+.card-image-container {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hover-card {
+    position: relative;
+}
+
+.hover-card .image-container {
+    transition: opacity 0.3s;
+}
+
+.hover-card:hover .image-container {
+    opacity: 0;
+}
+
+.hover-card::before {
+    content: attr(data-label);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.hover-card:hover::before {
+    opacity: 1;
+}
+
+.btn-cta:hover {
+    background-color: gold;
+    color: #5a0000;
+}
+
+.card-img-top {
+    transition: opacity 0.3s;
+}
+
+.card-text1 {
+    background-color: transparent;
+    color: whitesmoke
+}
+
+.card-title {
+    color: gold
+}
+
+.carousel-img {
+    width: 90%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.5s ease-out;
+}
+
+.carousel-img-item {
+    width: auto;
+    height: auto;
+    object-fit: cover;
+}
+
+.btn-primary {
+    background-color: #5a0000;
+    border: 1px solid gold;
+    color: white;
+}
+
+.btn-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.hidden-btns {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    display: none;
+    flex-direction: row;
+    transform: translateX(-50%);
+}
+
+.view-btn {
+    transition: visibility 0.3s, opacity 0.3s;
+}
+
+.view-btn:hover {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.view-btn:hover+.hidden-btns,
+.hidden-btns:hover {
+    display: flex;
+    /* background-color: yellow; */
+}
+
+#testimonial {
+    height: auto;
+}
+
+#contact {
+    height: auto;
+}
+
+footer {
+    height: auto;
+    /* border: 1px solid yellow; */
+}
+
+.hide-on-mobile {
+    display: block;
+}
+
+.circle-container-mobile {
+    display: none;
+}
+
+.social-media-icons {
+    display: none;
+}
+
+
+/* Media query for mobile devices */
+
+@media (max-width: 767px) {
+    body {
+        height: auto;
+    }
+    .view-btn {
+        display: none;
+    }
+    .hidden-btns {
+        position: static;
+        transform: none;
+        display: flex;
+    }
+    .image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        /* Adjust the height as needed */
+    }
+    #about {
+        height: auto;
+    }
+    .header-text {
+        font-size: 70px;
+        text-transform: capitalize;
+        position: absolute;
+        opacity: 0;
+    }
+    .card.mb-3 {
+        max-width: 100%;
+    }
+    .testimonial-img {
+        max-width: 150px;
+        height: auto;
+    }
+    .navbar-collapse {
+        order: 2;
+    }
+    .circle-container-wrapper {
+        order: 1;
+    }
+    .circle-container-mobile {
+        display: block;
+    }
+    .hide-on-mobile {
+        display: block;
+    }
+    .social-media-icons {
+        display: block;
+    }
+    .hide-contact-button {
+        display: none;
+    }
+}
