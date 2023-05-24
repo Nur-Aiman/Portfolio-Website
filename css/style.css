@@ -377,6 +377,7 @@ footer {
   .burger {
     margin-top: 25px;
     z-index: 99;
+    /* display: none; */
   }
   .burger-item {
     background-color: #5a0000;
